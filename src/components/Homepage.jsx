@@ -13,7 +13,7 @@ export default function HomePage() {
       <div className='box'>
         <h1 className='title'>Bienvenue sur MarsBot</h1>
       </div>
-      <img className='bgMars' src='./mars.png'></img>
+      <img className='bgMars' src='./mars.png' alt='mars-bg'></img>
       <div className='Footer'>
         <div className='col2'>
           <a href='https://fr-fr.facebook.com/' target='_blank' rel='noreferrer'>

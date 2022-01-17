@@ -84,7 +84,7 @@ export default function ChatBot() {
         </div>
       </div>
 
-      <img className='imgMars2' src='./mars-14.png' />
+      <img className='imgMars2' src='./mars-14.png' alt='mars-14' />
 
       <div className='Footer'>
         <div className='col2'>
