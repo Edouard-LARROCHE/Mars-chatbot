@@ -63,20 +63,20 @@ export default function ChatBot() {
   return (
     <>
       <Navbar />
-      <div className="chatbot-card">
-        <div className="human-input">
+      <div className='chatbot-card'>
+        <div className='human-input'>
           <InputGroup>
-            <Form.Control type="text" placeholder="Dis-moi quelque chose" value={userInput} onChange={handleChange} onKeyPress={onKeyUp} />
+            <Form.Control type='text' placeholder='Dis-moi quelque chose' value={userInput} onChange={handleChange} onKeyPress={onKeyUp} />
           </InputGroup>
         </div>
-        <div className="chatbox">
+        <div className='chatbox'>
           {userHistory.map((userReply, indx) => (
-            <div className="conversation-box">
-              <div id="bot-reply">
+            <div className='conversation-box'>
+              <div id='bot-reply'>
                 <h3>Bot : {botHistory[indx]}</h3>
               </div>
 
-              <div id="user-input">
+              <div id='user-input'>
                 <h3>P&G : {userReply}</h3>
               </div>
             </div>
@@ -84,18 +84,18 @@ export default function ChatBot() {
         </div>
       </div>
 
-      <img className="imgMars2" src="./mars-14.png" />
+      <img className='imgMars2' src='./mars-14.png' />
 
-      <div className="Footer">
-        <div className="col2">
-          <a href="https://fr-fr.facebook.com/" target="_blank">
-            <img src="facebook.png" alt="Facebook Icon" width="50px" height="50px" />
+      <div className='Footer'>
+        <div className='col2'>
+          <a href='https://fr-fr.facebook.com/' target='_blank' rel='noreferrer'>
+            <img src='facebook.png' alt='Facebook Icon' width='50px' height='50px' />
           </a>
-          <a href="https://www.instagram.com/?hl=fr" target="_blank">
-            <img src="Insta.png" alt="Instagram Icon" width="50px" height="50px" />
+          <a href='https://www.instagram.com/?hl=fr' target='_blank' rel='noreferrer'>
+            <img src='Insta.png' alt='Instagram Icon' width='50px' height='50px' />
           </a>
-          <a href="https://twitter.com/?lang=fr" target="_blank">
-            <img src="twiter.png" alt="Twitter Icon" width="50px" height="50px" />
+          <a href='https://twitter.com/?lang=fr' target='_blank' rel='noreferrer'>
+            <img src='twiter.png' alt='Twitter Icon' width='50px' height='50px' />
           </a>
         </div>
       </div>
