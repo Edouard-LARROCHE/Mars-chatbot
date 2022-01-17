@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+.bgMars {
+  background-image: cover;
+  width: 100%;
+  height: 890px;
+}
+.Menu {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.robot {
+  text-align: center;
+  padding-left: 5%;
+  font-size: 80px;
+  color: lightgray;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  position: absolute;
+  margin-top: 3%;
+  font-size: 400%;
+  font-family: 'Goblin one', sans-serif, 'Times New Roman', Times, serif;
+  color: black;
+}

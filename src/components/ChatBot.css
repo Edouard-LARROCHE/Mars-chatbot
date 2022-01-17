@@ -1,0 +1,50 @@
+.chatbot-card {
+  background-color: rgba(8, 8, 8, 0.438);
+  width: 500px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 2em;
+  height: 32em;
+}
+
+.human-input {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: 10px;
+}
+
+#user-input {
+  background-color: white;
+  border-radius: 5px;
+  text-align: left;
+  width: 17rem;
+  position: relative;
+  left: -60px;
+  margin: 15px;
+}
+
+#bot-reply {
+  background-color: white;
+  border-radius: 5px;
+  text-align: left;
+  width: 20rem;
+  position: relative;
+  left: -230px;
+}
+
+.conversation-box {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.chatbox {
+  overflow-y: scroll;
+  overflow-y: auto;
+  height: 500px;
+}
+
+.imgMars2 {
+  height: 894px;
+  width: 100%;
+}

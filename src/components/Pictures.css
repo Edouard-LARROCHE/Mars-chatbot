@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+.Footer {
+  border: solid 5px black;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  height: 62px;
+  width: 100%;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+  font-family: 'Goblin One', cursive;
+}
+
+.Histoire {
+  display: flex;
+  color: white;
+  width: 65%;
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Goblin One', cursive;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.boxCenter2 {
+  display: flex;
+  justify-content: center;
+}
+
+/*BoxCardPictures*/
+.BoxCardPictures {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.picture {
+  width: 30%;
+  height: auto;
+  border-radius: 10%;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.Background {
+  height: 944px;
+  background-image: url('https://images3.alphacoders.com/919/thumb-1920-919968.jpg');
+  font-family: 'Nova Flat' 'cursive';
+}
+
+.button {
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: #9d622b;
+  border: none;
+  color: black;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #193047;
+  border-radius: 4px;
+  font-family: 'Goblin One', cursive;
+}
+
+.button:hover {
+  background: #9d622b;
+  box-shadow: 0px 2px 10px 5px rgb(255, 196, 0);
+  color: #000;
+}
+
+.button:after {
+  content: '';
+  background: #d87403;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.button:focus {
+  outline: 0;
+}
